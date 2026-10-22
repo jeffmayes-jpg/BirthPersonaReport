@@ -3,35 +3,61 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="BirthPersonaReport — download the Windows application and contact the developer.">
-  <title>BirthPersonaReport</title>
+  <meta name="description" content="Birth Persona Report: numerology, biorhythm graph, and person-specific astrology.">
+  <title>Birth Persona Report</title>
   <style>
     :root { color-scheme: light; }
-    body { margin: 0; font-family: "Segoe UI", Arial, sans-serif; line-height: 1.6; color: #202938; background: #f4f6fa; }
-    main { max-width: 760px; margin: 7vh auto; padding: 0 22px; }
-    section { background: white; border: 1px solid #dce2ea; border-radius: 14px; padding: clamp(24px, 5vw, 42px); box-shadow: 0 8px 28px rgba(20,35,60,.07); }
-    h1 { line-height: 1.2; margin-top: 0; font-size: clamp(2rem, 5vw, 3rem); }
-    h2 { margin-top: 1.8em; }
+    body { margin: 0; font-family: "Segoe UI", Arial, sans-serif; line-height: 1.65; color: #202938; background: #f4f6fa; }
+    main { max-width: 850px; margin: 5vh auto; padding: 0 22px; }
+    article { background: white; border: 1px solid #dce2ea; border-radius: 14px; padding: clamp(24px, 5vw, 46px); box-shadow: 0 8px 28px rgba(20,35,60,.07); }
+    h1 { line-height: 1.2; margin: 0 0 8px; font-size: clamp(2rem, 5vw, 3rem); }
+    .subtitle { font-size: 1.15rem; color: #475569; margin-top: 0; }
+    h2 { margin-top: 1.7em; }
     .button { display: inline-block; margin: 10px 10px 8px 0; padding: 12px 18px; border-radius: 8px; background: #1756a9; color: white; text-decoration: none; font-weight: 650; }
     .button.secondary { background: #edf3fc; color: #17477f; border: 1px solid #c9d8ed; }
-    footer { margin: 18px 4px; color: #5e6878; font-size: .9rem; }
+    li { margin: 7px 0; }
+    .note { border-left: 4px solid #9aaec8; padding: 10px 16px; background: #f6f8fb; }
+    footer { margin: 18px 4px; color: #5e6878; font-size: .9rem; text-align: center; }
   </style>
 </head>
 <body>
   <main>
-    <section>
-      <h1>BirthPersonaReport</h1>
-      <p>BirthPersonaReport is a Windows desktop application. Download the published release below to use it on a Windows PC.</p>
-      <p><a class="button" href="https://github.com/jeffmayes-jpg/BirthPersonaReport/releases/download/v1.0.0/BirthPersonaReport.Release.zip">Download BirthPersonaReport (ZIP)</a></p>
-      <p>The ZIP contains the published application. Download it, extract its contents, and run the application executable from the extracted folder.</p>
+    <article>
+      <h1>Birth Persona Report</h1>
+      <p class="subtitle">Numerology, Biorhythm Graph, and Person-Specific Astrology</p>
+      <p>Birth Persona Report is a Windows desktop application built with VB.NET, WinForms, and .NET 10. It brings several traditional and interpretive systems together in a tabbed, person-specific report.</p>
+
+      <p><a class="button" href="https://github.com/jeffmayes-jpg/BirthPersonaReport/releases/download/v1.0.0/BirthPersonaReport.Release.zip">Download BirthPersonaReport (ZIP)</a>
+      <a class="button secondary" href="https://github.com/jeffmayes-jpg/BirthPersonaReport">Project details on GitHub</a></p>
+      <p>Download the ZIP, extract its contents, and run the application executable from the extracted folder.</p>
+
+      <h2>Features</h2>
+      <ul>
+        <li><strong>Numerology:</strong> Life Path Number, Soul Urge Number, and Birthday Number.</li>
+        <li><strong>Soul Urge:</strong> Calculated from the full birth name and, when supplied, the nickname.</li>
+        <li><strong>Birth date calculations:</strong> Explains why Life Path and Birthday Numbers do not change with a nickname.</li>
+        <li><strong>Biorhythm graph:</strong> Displays physical, emotional, and intellectual cycles around today's date.</li>
+        <li><strong>Western astrology:</strong> Sun Sign, element, modality, and ruling planet, followed by an interpretation for the individual.</li>
+        <li><strong>Chinese astrology:</strong> Animal, element, and Yin/Yang polarity, followed by an interpretation for the individual.</li>
+        <li><strong>Monday's Child:</strong> Includes the complete traditional poem, an explanation, and the person's date and corresponding line.</li>
+      </ul>
+
+      <h2>PDF Export</h2>
+      <p>PDF export contains the complete textual report. The biorhythm graph is displayed in the application; the PDF chapter describes the graph and its numerical values.</p>
+
+      <h2>Famous People Selection</h2>
+      <p>Click a row to select a person, then click <strong>Use Selected</strong>, or double-click the row. The selected person's name, birth date, and nickname are returned to the main screen.</p>
+
+      <h2>Important Note</h2>
+      <p class="note">Numerology, biorhythm, Western astrology, and Chinese astrology are presented as traditional or interpretive systems rather than scientifically established predictors.</p>
+
       <h2>Contact</h2>
-      <p>Questions or feedback? You can contact the developer through GitHub, or open an issue about the application.</p>
-      <p>
-        <a class="button secondary" href="https://github.com/jeffmayes-jpg">Developer's GitHub profile</a>
-        <a class="button secondary" href="https://github.com/jeffmayes-jpg/BirthPersonaReport/issues">Questions and feedback</a>
-      </p>
-    </section>
-    <footer>BirthPersonaReport · Windows desktop application</footer>
+      <p>Questions, feedback, or issues? Use either link below.</p>
+      <p><a class="button secondary" href="https://github.com/jeffmayes-jpg">Developer's GitHub profile</a>
+      <a class="button secondary" href="https://github.com/jeffmayes-jpg/BirthPersonaReport/issues">Questions and feedback</a></p>
+      <p><a href="https://github.com/jeffmayes-jpg/BirthPersonaReport/blob/main/README.md">View the README on GitHub</a> for the project's original documentation.</p>
+    </article>
+    <footer>Birth Persona Report · Windows desktop application</footer>
   </main>
 </body>
 </html>
